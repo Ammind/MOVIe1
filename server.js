@@ -9,7 +9,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 const PORT = 3000;
-const db = 'mongodb+srv://Ammind:Admin@cluster0.ujeinhi.mongodb.net/film-site?retryWrites=true&w=majority'
+
 
 mongoose
     .connect(db)
