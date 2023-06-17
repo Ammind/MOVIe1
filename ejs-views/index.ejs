@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>MOVIe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+  </style>
+ </head>
+ <body>
+<header class="header">
+  <div class="header__logo">
+    <a href="/films">Movie</a>
+  </div>
+  <form>
+    <input type="text", class="header__search" placeholder="Пошук"/>
+  </form>
+  <div class="header__content">
+    <a href="/add_film">Додати фільм</a>
+  </div>
+</header>
+<div class="golovno">
+  <h1>Дивитися фільми в HD онлайн</h1>
+  <br>
+  <div class="golovno_films">
+    <ul> 
+  <% films.forEach(({_id, Name, Genre, Image }) => {%>
+    <li>
+    <a href="/films<%= _id %>"><img src="<%= Image%>" ></a>
+    <!-- <div class="film__dark"><img src="<%= Image%>" class="a222"></div> -->
+    <br>
+    <a href="/films<%= _id %>" class="a111"><%= Name %></a>
+    <br>
+    <h6><%= Genre %></h6>
+  </li>
+    <%}) %>
+  </ul>
+  </div>
+</div>
+<script src="./app.js"></script>
+ </body>
+</html>

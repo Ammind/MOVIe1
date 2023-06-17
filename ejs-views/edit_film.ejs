@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>MOVIe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+  </style>
+ </head>
+ <body>
+  <header class="header">
+    <div class="header__logo">
+      <a href="/films">Movie</a>
+    </div>
+    <form>
+    </form>
+    <div class="header__content">
+    </div>
+  </header>
+<div class="golovno2">
+  <form id="film-form" method="post" action="/edit<%= film._id %>?_method=PUT">
+    <div class="film-info">
+      <label> Назва фільму
+        <input type="text" name="Name" value="<%= film.Name%>">
+      </label>
+      <br>
+      <label> Вік показу
+        <input type="text" name="Age" value="<%= film.Age%>">
+      </label>
+      <br>
+      <label> Жанр
+        <input type="text" name="Genre" value="<%= film.Genre%>">
+      </label>
+      <br>
+      <label> Рік показу
+        <input type="date" name="ReleaseYear" value="<%= film.ReleaseYear%>">
+      </label>
+      <br>
+      <label> Країна
+        <input type="text" name="Country" value="<%= film.Country%>">
+      </label>
+      <label> Обкладинка
+        <input type="img" name="Image" value="<%= film.Image%>">
+      </label>
+      <br>
+    </div>
+<div class="film-text">
+  <label> Опис
+    <textarea name="Description"><%= film.Description%>"</textarea>
+  </label>
+</div>
+<div class="film-button">
+  <input type="submit" value="Редагувати">
+</div>
+  </form>
+</div>
+<script src="./app.js"></script>
+ </body>
+</html>
