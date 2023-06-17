@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #09161C;
+}
+
+.golovno {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 100%;
+    background-color: #102731;
+}
+
+.golovno h1 {
+    padding-left: 10px;
+    color: #fff;
+    /*text-align: center*/
+
+}
