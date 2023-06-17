@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #09161C; */
+    background-color: #131415;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  /* padding-left: 100px; */
+  display: flex;
+  justify-content: space-between;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    align-items: center;
+}
+
+.header__logo {
+  font-size: 32px;
+  text-decoration: none;
+  color: #000;
+}
+
+.header__search {
+  /* border: 2px solid #102731; */
+  border: 2px solid #1F2123;
+  color: #ffd80e;
+}
+
+/* головна */
+.golovno {
+  /* display: block; */
+    padding-left: 100px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    /* height: 1000px; */
+    /* background-color: #102731; */
+}
+
+/* .a111 {
+  display: flex; 
+  hyphens: auto; 
+} */
+
+li {
+  display: block;
+  list-style: none;
+  /* margin: 15px; */
+  width: 230px;
+  height: 370px;
+}
+
+ul {
+  padding: 0;
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .golovno_films {
+  overflow:scroll;
+} */
+
+.golovno h1,h2,h3,h4,h5,h6 {
+    padding-left: 10px;
+    color: #fff;
+    /*text-align: center*/
+}
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 2%;
+    margin-bottom: 5px;
+}
+
+/* .film__dark {
+  background-color: #0000;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 1;
+} */
+
+
+/* 
+.film__dark {
+  display: inline-block;
+        background-color: rgba(0, 0, 0, 0.1);
+        line-height: 0;
+} */
+
+/* фільм */
+
+.golovno1 img {
+    width: 250px;
+    height: 360px;
+    border-radius: 2%;
+    
+}
+
+.golovno1 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 100%;
+    /* background-color: #102731; */
+}
+
+.golovno1 h1,h2,h3,h4,h5,h6 {
+    padding-left: 0px;
+    color: #fff;
+    /*text-align: center*/
+}
+
+.text {
+    margin-left: 50px;
+    width: 600px;
+    line-height: 1.8;
+
+}
+
+.btn_edit {
+  margin-bottom: 10px;
+  width: 200px;
+  background-color: #202325;
+  /* border: 1px solid #ffd80e; */
+  color: #fff;
+  height: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.btn_edit:hover {
+  border: 2px solid #ffd80e;
+}
+
+.btn__delete {
+  width: 200px;
+  background-color: #202325;
+  /* border: 1px solid #ffd80e; */
+  color: #fff;
+  height: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.btn__delete:hover {
+  border: 2px solid #ff0e0e;
+}
+
+.img_btn {
+  max-width: 250px;
+}
+  
+  .film-info {
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    gap: 20px;
+    color: #3d4246;
+  }
+  
+  .film-text {
+    font-family: 'Roboto', sans-serif;
+    color: #3d4246;
+  }
+
+
+  input,
+  textarea {
+    font-family: 'Roboto', sans-serif;
+    min-height: 30px;
+    width: 400px;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #3d4246;
+    font-size: 18px;
+    padding: 3px 5px;
+    outline: none;
+    display: flex;
+    margin: 5px;
+  }
+  
+  textarea {
+    resize: none;
+    min-height: 150px;
+  }
+  
+  .film-button {
+    width: 100px;
+    display: flex;
+    /* justify-content: flex-end; */
+  }
+  
+  .film-button input {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .film-button input:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+
+ 
+
+  .golovno2 {
+    /* margin: 40px 0 20px 0; */
+    display: flex;
+    padding-left: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 100%;
+    /* background-color: #102731; */
+}
